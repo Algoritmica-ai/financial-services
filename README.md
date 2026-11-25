@@ -1,3 +1,14 @@
+# Algoritmica Financial Services
+
+This fork adds the [Algoritmica ABS portfolio plugin](./plugins/partner-built/algoritmica) to the upstream financial-services collection. Its first release analyses SME-backed ABS holdings and collateral using the direct Deeploans API. It has no external analytics-provider or MCP dependency.
+
+```bash
+claude plugin marketplace add Algoritmica-ai/financial-services
+claude plugin install algoritmica@algoritmica-financial-services
+```
+
+Run `/algoritmica:review-abs-portfolio` with a holdings file and reporting date. See the plugin documentation for API configuration, an offline synthetic example and validation commands. The upstream installation instructions and provider plugins below are retained for reference.
+
 # Claude for Financial Services
 
 Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.

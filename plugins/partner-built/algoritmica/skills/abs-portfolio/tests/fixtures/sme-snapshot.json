@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "source": {
+    "kind": "synthetic-fixture",
+    "description": "Small hand-constructed SME API-shaped example. No real loans or securities.",
+    "fetched_at": "2026-12-01T00:00:00Z"
+  },
+  "coverage": {
+    "complete": true,
+    "tables": {
+      "deals": {
+        "complete": true,
+        "row_count": 0,
+        "pages": 1
+      },
+      "bond_tranches": {
+        "complete": true,
+        "row_count": 6,
+        "pages": 1
+      },
+      "loans": {
+        "complete": true,
+        "row_count": 6,
+        "pages": 1
+      },
+      "performances": {
+        "complete": true,
+        "row_count": 6,
+        "pages": 1
+      },
+      "obligors": {
+        "complete": true,
+        "row_count": 6,
+        "pages": 1
+      }
+    }
+  },
+  "tables": {
+    "deals": [],
+    "bond_tranches": [
+      {
+        "dl_code": "D1",
+        "BS1": "2026-10-31",
+        "BS25": "A",
+        "BS26": "TEST-D1-A",
+        "BS29": "EUR"
+      },
+      {
+        "dl_code": "D1",
+        "BS1": "2026-10-31",
+        "BS25": "B",
+        "BS26": "TEST-D1-B",
+        "BS29": "EUR"
+      },
+      {
+        "dl_code": "D2",
+        "BS1": "2026-10-31",
+        "BS25": "A",
+        "BS26": "TEST-D2-A",
+        "BS29": "USD"
+      },
+      {
+        "dl_code": "D1",
+        "BS1": "2026-11-30",
+        "BS25": "A",
+        "BS26": "TEST-D1-A",
+        "BS29": "EUR"
+      },
+      {
+        "dl_code": "D1",
+        "BS1": "2026-11-30",
+        "BS25": "B",
+        "BS26": "TEST-D1-B",
+        "BS29": "EUR"
+      },
+      {
+        "dl_code": "D2",
+        "BS1": "2026-11-30",
+        "BS25": "A",
+        "BS26": "TEST-D2-A",
+        "BS29": "USD"
+      }
+    ],
+    "loans": [
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS50": "2024-01-31",
+        "AS51": "2030-01-31",
+        "AS52": "EUR",
+        "AS54": 100,
+        "AS55": 90
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS50": "2023-06-30",
+        "AS51": "2030-01-31",
+        "AS52": "EUR",
+        "AS54": 40,
+        "AS55": 30
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-10-31",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS50": "2024-01-31",
+        "AS51": "2030-01-31",
+        "AS52": "USD",
+        "AS54": 70,
+        "AS55": 60
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS50": "2024-01-31",
+        "AS51": "2030-01-31",
+        "AS52": "EUR",
+        "AS54": 100,
+        "AS55": 80
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS50": "2023-06-30",
+        "AS51": "2030-01-31",
+        "AS52": "EUR",
+        "AS54": 40,
+        "AS55": 20
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-11-30",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS50": "2024-01-31",
+        "AS51": "2030-01-31",
+        "AS52": "USD",
+        "AS54": 70,
+        "AS55": 50
+      }
+    ],
+    "performances": [
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS118": 0,
+        "AS116": 0,
+        "AS117": 0,
+        "AS115": 0,
+        "AS121": false,
+        "AS122": false
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS118": 45,
+        "AS116": 0,
+        "AS117": 5,
+        "AS115": 0,
+        "AS121": true,
+        "AS122": false
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-10-31",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS118": null,
+        "AS116": null,
+        "AS117": null,
+        "AS115": null,
+        "AS121": "Y",
+        "AS122": false
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS118": 0,
+        "AS116": 0,
+        "AS117": 0,
+        "AS115": 0,
+        "AS121": false,
+        "AS122": false
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS118": 45,
+        "AS116": 0,
+        "AS117": 5,
+        "AS115": 0,
+        "AS121": true,
+        "AS122": false
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-11-30",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS118": null,
+        "AS116": null,
+        "AS117": null,
+        "AS115": null,
+        "AS121": "Y",
+        "AS122": false
+      }
+    ],
+    "obligors": [
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS15": "DE",
+        "AS42": "A"
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-10-31",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS15": "FR",
+        "AS42": "B"
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-10-31",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS15": "US",
+        "AS42": "C"
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L1",
+        "AS7": "O1",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS15": "DE",
+        "AS42": "A"
+      },
+      {
+        "dl_code": "D1",
+        "AS1": "2026-11-30",
+        "AS2": "P1",
+        "AS3": "L2",
+        "AS7": "O2",
+        "AS4": "Originator D1",
+        "AS6": "Servicer D1",
+        "AS15": "FR",
+        "AS42": "B"
+      },
+      {
+        "dl_code": "D2",
+        "AS1": "2026-11-30",
+        "AS2": "P2",
+        "AS3": "L1",
+        "AS7": "O3",
+        "AS4": "Originator D2",
+        "AS6": "Servicer D2",
+        "AS15": "US",
+        "AS42": "C"
+      }
+    ]
+  }
+}

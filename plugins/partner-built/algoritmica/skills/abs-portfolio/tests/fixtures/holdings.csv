@@ -1,0 +1,4 @@
+position_id,deal_id,tranche_id,security_id,position_balance,currency,market_value
+H1,D1,A,TEST-D1-A,40,EUR,39
+H2,D1,B,TEST-D1-B,10,EUR,
+H3,D2,A,TEST-D2-A,20,USD,19.5
