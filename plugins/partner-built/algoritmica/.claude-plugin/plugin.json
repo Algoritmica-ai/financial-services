@@ -1,0 +1,9 @@
+{
+  "name": "algoritmica",
+  "version": "0.1.0",
+  "description": "Analyse SME-backed ABS holdings and underlying collateral through the Deeploans API, with reproducible calculations and explicit data coverage.",
+  "author": {"name": "Algoritmica"},
+  "repository": "https://github.com/Algoritmica-ai/financial-services",
+  "license": "Apache-2.0",
+  "keywords": ["abs", "sme", "securitisation", "deeploans", "credit", "portfolio"]
+}

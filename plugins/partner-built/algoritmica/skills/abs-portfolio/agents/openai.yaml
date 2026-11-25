@@ -1,0 +1,4 @@
+interface:
+  display_name: "ABS Portfolio"
+  short_description: "Review SME ABS holdings and collateral with Deeploans"
+  default_prompt: "Use $abs-portfolio to review my SME-backed ABS holdings and underlying collateral using the Deeploans API."
