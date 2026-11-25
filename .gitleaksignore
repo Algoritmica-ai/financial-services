@@ -1,0 +1,3 @@
+# Exact historical false positive in provenance prose: "holdings/collateral"
+# following "access" was classified as an API key. No credential is present.
+5de00a9877f0d0dbeb225f0658f3d0c81488eb1a:plugins/partner-built/algoritmica/skills/abs-portfolio/SKILL.md:generic-api-key:56

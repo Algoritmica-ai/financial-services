@@ -53,4 +53,4 @@ Keep holdings exposure, collateral balances and valuation inputs clearly labelle
 
 ## Provenance
 
-Adapted from the workflow structure of `fixed-income-portfolio` in [anthropics/financial-services](https://github.com/anthropics/financial-services/blob/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f/plugins/partner-built/lseg/skills/fixed-income-portfolio/SKILL.md), under Apache-2.0. Modified by Algoritmica for direct Deeploans SME data access, holdings/collateral reconciliation and reproducible credit-data analysis. The upstream skill's pricing, provider-tool and cash-flow assumptions are replaced here.
+Adapted from the workflow structure of `fixed-income-portfolio` in [anthropics/financial-services](https://github.com/anthropics/financial-services/blob/3e32c2287dcb637c184c01cc0ad82d6af7e9bb0f/plugins/partner-built/lseg/skills/fixed-income-portfolio/SKILL.md), under Apache-2.0. Modified by Algoritmica for direct retrieval of Deeploans SME records. This version adds holdings reconciliation, collateral analysis and reproducible calculations. The upstream skill's pricing, provider-tool and cash-flow assumptions are replaced here.
